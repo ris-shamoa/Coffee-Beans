@@ -1,0 +1,554 @@
+.center
+{
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto; 
+}
+body
+{
+	margin: 0px;
+	background-color:  #515866;
+}
+#phone
+{
+	margin-top: 10%;
+	height: 456px;
+    width: 266px;
+	border-radius: 30px;
+	margin-left: 10%;
+	background-color: #dcdfe6;
+   padding-top: 18px;
+    
+}
+#speaker
+{
+	background-color:  #a1a5b3;
+	width: 57px;
+	height:8px;
+   border-radius: 6px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  #screen
+  {
+  	width: 237px;
+  	margin-left: 15px;
+  	margin-top: 6px;
+  	height: 389px;
+   position: absolute;
+   overflow: hidden;
+   background-color:#313131;
+    
+  }
+  #header
+  {
+  	height: 34px;
+  	width: 237px;
+  	margin-left: 0px;
+  	background-color: #e34a36;
+  	font-family: monospace;
+  	color: whitesmoke;
+    padding-top: 10px;
+  	font-size: 20px;
+  	font-weight: bold;
+  	text-align: center;
+  }
+
+  #button
+  {
+  	width: 30px;
+  	height: 30px;
+  	position: absolute;
+  	border-radius: 16px;
+  	background-color: #dcdfe0;
+  	border:3px solid silver;
+  margin-top: 400px;
+  margin-left: 110px;
+  
+  }
+.colist
+{
+	height: 330px;
+	width: 236px;
+	overflow: hidden;
+    color: whitesmoke;
+	font-family: monospace;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	display: block;
+	background-color: #313131;
+	margin-left: 0px;
+	cursor: pointer;
+	position: absolute;
+	transition: all .7s;
+
+}
+#one{
+	margin-top: -20px;
+	z-index: 3;
+}
+#two
+{
+	margin-top: 17px;
+  z-index: 4;
+}
+.redmark
+{
+	width: 7px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	height: 1px;
+	border-radius: 2px;
+	background-color: #e34a36;
+	transition: all .8s;
+
+}
+.discription
+{
+	font-weight: normal;
+	font-size: 11px;
+	font-style: italic;
+	color: whitesmoke;
+	text-align: center;
+}
+#menu
+{
+	width: 200px;
+	padding: 6px;
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-style: italic;
+	font-size: 13px;
+	font-family: monospace;
+	margin-left: 10px;
+	margin-top:340px;
+	border:2px solid white;
+	z-index: 12;
+	background-color: #313131;
+	
+}
+#menu:hover
+{
+	background-color: white;
+	color: #313131;
+}
+
+
+#three
+{ 
+	margin-top: 47px;
+	z-index: 5;
+}
+#four
+{
+	margin-top:  74px;
+	z-index: 6;
+}
+#five
+{
+margin-top:107px;
+z-index: 7;
+}
+#six
+{
+	margin-top: 138px;
+	z-index: 8;
+}
+#seven
+{
+	margin-top: 169px;
+	z-index: 9;
+}
+#eight
+{
+	margin-top: 200px;
+	z-index: 10;
+}
+#nine
+{
+	margin-top: 238px;
+	z-index: 11;
+
+}
+#des9
+{
+	margin-top: 60px;
+}
+#red9
+{
+	margin-top: 60px;
+}
+#ingredients1
+{
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: monospace;
+	font-weight: normal;
+	font-size: 11px;
+	font-style: italic;
+	margin-right: -120px;
+	margin-left: 2px;
+	transition: all 1s;
+}
+.rightcup1
+{
+	display: inline-block;
+	vertical-align: bottom;
+	background-color: #313131;
+	transition: all 1s;
+}
+.cupbody1
+{ display: inline-block;
+	vertical-align: middle;
+	width:100px;
+	height: 90px;
+	border-radius: 0px 0px 50px 50px;
+	border:solid 4px white;
+}
+.cupingredients
+{
+	margin-top: 24px;
+	width: 280px;
+	margin-left: 300px;
+	transition: all 1s;
+
+}
+.cuphandle
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 28px;
+	margin-top: -15px;
+	border-top:solid 4px white;
+	border-right:solid 4px white;
+	border-bottom:solid 4px white;
+
+	border-radius: 0px 10px 30px 0px;
+
+}
+.basein1
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+	
+	border-radius: 0px 0px 60px 60px;
+	background-color: brown;
+}
+#basein2
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 6px;
+	margin-top: 40%;
+	background-color: grey;
+
+}
+#basein2-b
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 2px;
+	background-color: grey;
+
+}
+#basein3-b
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 7px;
+	margin-top: 36%;
+	background-color: white;
+
+}
+#ingredients2
+{
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: monospace;
+	font-weight: normal;
+	font-size: 11px;
+	font-style: italic;
+	margin-right: -120px;
+	margin-left: 2px;
+	transition: all 1s;
+}
+#ingredients3
+{
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: monospace;
+	font-weight: normal;
+	font-size: 11px;
+	font-style: italic;
+	margin-right: -120px;
+	margin-left: 2px;
+	transition: all 1s;
+}
+#basein2-c
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 2px;
+	
+	background-color: grey;
+
+}
+#basein3-c
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 13px;
+	margin-top: 29%;
+	background-color: white;
+
+}
+#ingredients4
+{
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: monospace;
+	font-weight: normal;
+	font-size: 11px;
+	font-style: italic;
+	margin-right: -120px;
+	margin-left: 2px;
+	transition: all 1s;
+}
+#basein2-d
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 2px;
+	
+	background-color: grey;
+
+}
+#basein4-d
+{
+width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 27px;
+	background-color:  #dcdfd6;
+}
+#basein3-d
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 13px;
+	margin-top: 2%;
+	background-color: white;
+
+}
+#basein2-e
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 2px;
+	
+	background-color: grey;
+
+}
+
+#basein4-e
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 33px;
+	margin-top: 10%;
+	background-color: lightgrey;
+
+}
+#ingredients5
+{
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: monospace;
+	font-weight: normal;
+	font-size: 11px;
+	font-style: italic;
+	margin-right: -120px;
+	margin-left: 2px;
+	transition: all 1s;
+}
+#basein2-f
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 4px;
+	
+	background-color: grey;
+
+}
+#basein3-f
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 18px;
+	background-color: #eb5651;
+
+}
+
+#basein4-f
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20px;
+	margin-top: 3%;
+	background-color: white;
+
+}
+#ingredients6
+{
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: monospace;
+	font-weight: normal;
+	font-size: 11px;
+	font-style: italic;
+	margin-right: -120px;
+	margin-left: 2px;
+	transition: all 1s;
+}
+#basein2-g
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 4px;
+	background-color: grey;
+}
+
+#basein4-g
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20px;
+	margin-top: 23%;
+	background-color: white;
+
+}
+#ingredients7
+{
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: monospace;
+	font-weight: normal;
+	font-size: 11px;
+	font-style: italic;
+	margin-right: -120px;
+	margin-left: 2px;
+	transition: all 1s;
+}
+#basein2-h
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 4px;
+	background-color: grey;
+
+}
+
+
+#basein4-h
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20px;
+	margin-top: 23%;
+	background-color: white;
+
+}
+#ingredients8
+{
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: monospace;
+	font-weight: normal;
+	font-size: 11px;
+	font-style: italic;
+	margin-right: -120px;
+	margin-left: 2px;
+	transition: all 1s;
+}
+#basein2-i
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 4px;
+	
+	background-color: grey;
+
+}
+
+
+#basein4-i
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20px;
+	margin-top: 2%;
+	background-color: white;
+
+}
+#ingredients9
+{
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: monospace;
+	font-weight: normal;
+	font-size: 11px;
+	font-style: italic;
+	margin-right: -120px;
+	margin-left: 2px;
+	transition: all 1s;
+}
+#basein3-i
+{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 18px;
+	background-color: #eb5651;
+
+}
+#maincontainer
+{
+	display: inline-block;vertical-align: top;
+	margin-left: 100px;
+}
+#detail
+{
+	font-size: 100px;
+	padding-top: 150px;
+	font-family: Lato, sans-serif;
+	font-weight: normal;
+	color: white;
+	width: 200px;
+	margin-left: -400px;
+	display: inline-block;
+	vertical-align: top;
+}

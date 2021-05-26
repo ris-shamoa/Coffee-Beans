@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coffee Beans</title>
+	<link rel="stylesheet" href="style.css">
+	<script >
+		function pUp(a,b)
+		{
+        q=document.getElementById(a);
+         
+        q.style.height="350px";
+        q.style.zIndex="13";
+        q.style.transition='1s';
+        w=document.getElementById(b);
+        w.style.width="70px";
+        q.style.marginTop='-26px';
+         x=document.getElementsByClassName('cupingredients');
+         for (var i = x.length- 1; i >= 0; i--) {
+         	x[i].style.marginLeft='0px';  }
+        if (a=='two')
+        {	
+        	
+        	z2=document.getElementById('des2');
+        	z2.style.marginTop="0px";
+        
+        }
+        if(a=='three')
+        {
+        
+         z3=document.getElementById('des3');
+         z3.style.marginTop='0px';
+         
+        }
+        if (a=='four') {
+        	
+        	z4=document.getElementById('des4');
+        	z4.style.marginTop='0px';
+        }
+        if (a=='five') {
+        	
+        	z4=document.getElementById('des5');
+        	z4.style.marginTop='0px';
+        }
+         if (a=='six') {
+        	
+        	z4=document.getElementById('des6');
+        	z4.style.marginTop='0px';
+        }
+         if (a=='seven') {
+        	
+        	z4=document.getElementById('des7');
+        	z4.style.marginTop='0px';
+        }
+          if (a=='eight') {
+        	
+        	z4=document.getElementById('des8');
+        	z4.style.marginTop='0px';
+        }
+          if (a=='nine') {
+        	
+        	z5=document.getElementById('red9');
+        	z5.style.marginTop="10px";
+        	z4=document.getElementById('des9');
+        	z4.style.marginTop='0px';
+        }
+       r=document.getElementById('menu');
+        r.style.zIndex="15";
+        r.style.marginTop='266px';
+        
+        
+		}
+		
+		function close_up()
+		{
+			
+			m=document.getElementById('menu');
+			m.style.marginTop='430px';
+               
+               xzz=document.getElementsByClassName('inz');
+               for (var i = xzz.length - 1; i >= 0; i--) {
+               	xzz[i].style.marginRight='-120px';
+               }
+
+			 xz=document.getElementsByClassName('cupingredients');
+         for (var i=xz.length-1; i >= 0; i--) {
+         	xz[i].style.marginLeft='300px';  }
+
+          w=document.getElementsByClassName('colist');
+			var p="3";
+			for (var i = 0; i<=w.length; i++) {
+				w[i].style.zIndex=p;
+			    if (i=='0') {
+			    	w[i].style.marginTop='-20px';
+			    }
+			    if (i=='1') {
+			    	w[i].style.marginTop='17px';
+			    }
+			    if (i=='2') {
+			    	w[i].style.marginTop='47px';
+			    }
+			    if (i=='3') {
+			    	w[i].style.marginTop='74px';
+
+			    }
+			    if (i=='4') {
+			    	w[i].style.marginTop='107px';
+			    }
+			    if (i=='5') {
+			    	w[i].style.marginTop='138px';
+			    }
+			    if (i=='6') {
+			    	w[i].style.marginTop='169px';
+			    }
+			    if (i=='7') {
+			    	w[i].style.marginTop='200px';
+			    	
+			    }
+			    if (i=='8') {
+			    	w[i].style.marginTop='238px';
+			    	as1=document.getElementById('des9');
+			    	as2=document.getElementById('red9');
+			    	as2.style.marginTop='60px';
+			         as1.style.marginTop='60px';
+			    }
+				p++;
+			}
+
+
+
+		}
+		function slidel(a)
+		{
+ s=document.getElementById(a);
+ s.style.marginRight='20px';
+		}
+	</script>
+</head>
+<body>
+<div id="maincontainer" class="center">
+	 <div id="phone"> <div id="speaker"></div>
+	 <div id="screen">
+	 	<div id="header"> COFFEE DELIGHT </div>
+	 	<ul style="list-style: none;padding-left: 0px;">
+	 		<li class="colist" id="one" >
+	 			<div onclick="pUp('one','r1')" id="do">DOPPIO</div>
+	 			<div class="redmark" id="r1"></div>	 
+	 			<div class="discription" id="des1">Doppio i espresso is a double shot, extracted using a double coffee filter in the portafilter </div>	
+	 			<div class="cupingredients" >
+	 				<div id="ingredients1" class="inz">
+	 					ESPRESSO........<br>
+	 					60ml
+	 					
+	 				</div>
+	 				<div class="rightcup1" onclick="slidel('ingredients1')">
+	 					<div class="cupbody1">
+	 						<div id="insidecup1">
+	 							<div id="basein2"></div>
+	 							<div class="basein1">
+	 								
+	 							</div>
+	 						</div>
+	 						
+	 					</div><div class="cuphandle"></div>
+	 					
+	 				</div>
+	 				
+	 			</div>		
+	 		</li>
+	 		<li class="colist" id="two" >
+	 			<div id="r2">
+	 			<div id="ma"  onclick="pUp('two','red2')">MACCHIATO</div>
+	 			<div class="redmark" id="red2"></div>	 			
+                <div class="discription" id="des2">A caffe macchiato, sometimes called espresso macchiato, is an espresso coffee drink with a small amount of milk added, today usually foamed milk.</div></div>
+                <div class="cupingredients" >
+	 				<div id="ingredients2" class="inz">
+	 					<br>MILK FOAM.......<br>
+	 					15ml<br><br>
+	 					ESPRESSO........<br>
+	 					60ml
+	 					
+	 				</div>
+	 				<div class="rightcup1" onclick="slidel('ingredients2')">
+	 					<div class="cupbody1">
+	 						<div id="insidecup2">
+	 							<div id="basein3-b"></div>
+	 							<div id="basein2-b"></div>
+	 							<div class="basein1">
+	 								
+	 							</div>
+	 						</div>
+	 						
+	 					</div><div class="cuphandle"></div>
+	 					
+	 				</div>
+	 				
+	 			</div>	
+	 		</li>
+	 		<li class="colist" id="three">
+	 			<div onclick="pUp('three','red3')">CORTADO</div>
+	 			<div class="redmark" id="red3"></div>	 			
+                 <div class="discription" id="des3">A cortado(from the Spanish verb "cortar"-to cut) is an espresso cut with a small amount of warm milk</div>
+                         <div class="cupingredients" >
+	 				<div id="ingredients3" class="inz">
+	 					<br>MILK FOAM.......<br>
+	 					30ml<br><br>
+	 					ESPRESSO........<br>
+	 					60ml
+	 					
+	 				</div>
+	 				<div class="rightcup1" onclick="slidel('ingredients3')">
+	 					<div class="cupbody1">
+	 						<div id="insidecup2">
+	 							<div id="basein3-c"></div>
+	 							<div id="basein2-c"></div>
+	 							<div class="basein1">
+	 								
+	 							</div>
+	 						</div>
+	 						
+	 					</div><div class="cuphandle"></div>
+	 					
+	 				</div>
+	 				
+	 			</div>	
+	 		</li>
+	 		<li class="colist" id="four">
+	 			<div onclick="pUp('four','red4')">CAPPUCCINO</div>
+	 			<div class="redmark" id="red4"></div>	 			
+                <div class="discription" id="des4">A cappuccino (from the Capuchin friars) is an Italian coffee drink which is traditionally prepared with espresso, hot milk and steamed-milk-foam</div>
+
+                   <div class="cupingredients" >
+	 				<div id="ingredients4" class="inz">
+	 					<br>MILK FOAM.......<br>
+	 					30ml<br>
+	 					STEAMED MILK.....<br>
+	 					20ml<br><br>
+	 					ESPRESSO........<br>
+	 					60ml
+	 					
+	 				</div>
+	 				<div class="rightcup1" onclick="slidel('ingredients4')">
+	 					<div class="cupbody1">
+	 						<div id="insidecup2">
+	 							<div id="basein3-d"></div>
+	 							<div id="basein4-d"></div>
+	 							<div id="basein2-d"></div>
+	 							<div class="basein1">
+	 								
+	 							</div>
+	 						</div>
+	 						
+	 					</div><div class="cuphandle"></div>
+	 					
+	 				</div>
+	 				
+	 			</div>	
+	 		</li>
+	 		<li class="colist" id="five">
+	 			<div onclick="pUp('five','red5')">AMERICANO</div>
+	 			<div class="redmark" id="red5"></div>	 			
+                <div class="discription" id="des5">A caffe americano is a style of coffee prepared by adding hot water to espresso,giving it a similar strength to,but different flavor from regular drip coffee.</div>
+                   <div class="cupingredients" >
+	 				<div id="ingredients5" class="inz">
+	 					
+	 					HOT WATER.....<br>
+	 					80ml<br><br>
+	 					ESPRESSO........<br>
+	 					60ml
+	 					
+	 				</div>
+	 				<div class="rightcup1" onclick="slidel('ingredients5')">
+	 					<div class="cupbody1">
+	 						<div id="insidecup2">
+	 							
+	 							<div id="basein4-e"></div>
+	 							<div id="basein2-e"></div>
+	 							<div class="basein1">
+	 								
+	 							</div>
+	 						</div>
+	 						
+	 					</div><div class="cuphandle"></div>
+	 					
+	 				</div>
+	 				
+	 			</div>
+	 		</li>
+		 		<li class="colist" id="six">
+		 			<div onclick="pUp('six','red6')">MOCHA</div>
+		 			<div class="redmark" id="red6"></div>	 			
+	                 <div class="discription" id="des6">A caffe mocha is based on espresso and hot milk, but with added chocolate, typically in the form of sweet cocoa powder, although many varieties use chocolate.</div>
+	                                          <div class="cupingredients" >
+	 				<div id="ingredients6" class="inz">
+	 					<br>STEAMED MILK.....<br>
+	 					30ml<br>
+	 					CHOCOLATE.....<br>
+	 					60ml<br><br>
+	 					ESPRESSO......<br>
+	 					60ml
+	 					
+	 				</div>
+	 				<div class="rightcup1" onclick="slidel('ingredients6')">
+	 					<div class="cupbody1">
+	 						<div id="insidecup2">
+
+	 							<div id="basein4-f"></div>
+	 							<div id="basein3-f"></div>
+	 							<div id="basein2-f"></div>
+	 							<div class="basein1">
+	 								
+	 							</div>
+	 						</div>
+	 						
+	 					</div><div class="cuphandle"></div>
+	 					
+	 				</div>
+	 				
+	 			</div>	
+		 		</li>
+		 		<li class="colist" id="seven">
+		 			<div onclick="pUp('seven','red7')">LATTE</div>
+		 			<div class="redmark" id="red7"></div>	 			
+	                <div class="discription" id="des7">A caffe latte is a coffee drink made with espresso and steamed milk. The term is Italian for "milk coffee".</div>
+	                                                      <div class="cupingredients" >
+	 				<div id="ingredients7" class="inz">
+	 						MILK FOAM.....<br>
+	 					60ml<br>
+	 					<br>STEAMED MILK.....<br>
+	 					10ml<br>
+	 				
+	 					ESPRESSO......<br>
+	 					60ml
+	 					
+	 				</div>
+	 				<div class="rightcup1" onclick="slidel('ingredients7')">
+	 					<div class="cupbody1">
+	 						<div id="insidecup2">
+
+	 							<div id="basein4-g"></div>
+	 							<div id="basein3-g"></div>
+	 							<div id="basein2-g"></div>
+	 							<div class="basein1">
+	 								
+	 							</div>
+	 						</div>
+	 						
+	 					</div><div class="cuphandle"></div>
+	 					
+	 				</div>
+	 				
+	 			</div>
+		 		</li>
+		 		<li class="colist" id="eight">
+		 			<div onclick="pUp('eight','red8')">BREVE</div>
+		 			<div class="redmark" id="red8"></div>	 			
+	                <div class="discription" id="des8">A caffe breve is an American variation of latte: a milk-based espresso drink using steamed half-and-half mixture of milk and cream instead of milk.</div>
+	                                                              <div class="cupingredients" >
+	 				<div id="ingredients8" class="inz">
+	 						half&half.....<br>
+	 					60ml<br>
+	 					<br>
+	 					ESPRESSO......<br>
+	 					60ml
+	 					
+	 				</div>
+	 				<div class="rightcup1" onclick="slidel('ingredients8')">
+	 					<div class="cupbody1">
+	 						<div id="insidecup2">
+
+	 							<div id="basein4-h"></div>
+	 							
+	 							<div id="basein2-h"></div>
+	 							<div class="basein1">
+	 								
+	 							</div>
+	 						</div>
+	 						
+	 					</div><div class="cuphandle"></div>
+	 					
+	 				</div>
+	 				
+	 			</div>
+		 		</li>
+		 		<li class="colist" id="nine" >
+		 			<div onclick="pUp('nine','red9')">MOCHA BREVE</div>
+		 			<div class="redmark" id="red9"></div>	 			
+	                 <div class="discription" id="des9">A mocha breve is similar to a caffe breve with an added ounce of cocoa powder or chocolate syrup.</div>
+	                                                                           <div class="cupingredients" >
+	 				<div id="ingredients9" class="inz">
+	 						half&half.....<br>
+	 					60ml<br>
+	 					CHOCOLATE....<br>
+	 					20ml<br>
+	 					<br>
+	 					ESPRESSO......<br>
+	 					60ml
+	 					
+	 				</div>
+	 				<div class="rightcup1" onclick="slidel('ingredients9')">
+	 					<div class="cupbody1">
+	 						<div id="insidecup2">
+
+	 							<div id="basein4-i"></div>
+	 							<div id="basein3-i"></div>
+	 							<div id="basein2-i"></div>
+	 							<div class="basein1">
+	 								
+	 							</div>
+	 						</div>
+	 						
+	 					</div><div class="cuphandle"></div>
+	 					
+	 				</div>
+	 				
+	 			</div
+		 		</li>
+
+
+	 	</ul>
+	 	
+	 	<div id="menu" onclick="close_up()">MENU</div>
+	
+	 </div><!--end of screen-->
+	 <div id="button">
+	 	
+	 </div>
+	 	
+	 </div><!--phone end-->
+</div>
+
+<div id="detail">
+	COFFEE APP
+</div>
+
+
+
+
+
+
+</body>
+</html>
